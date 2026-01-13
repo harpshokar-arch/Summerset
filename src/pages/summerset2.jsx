@@ -146,7 +146,7 @@ const Summerset2 = () => {
             </div>
             <div>
               <h1 className="text-2xl font-serif tracking-[0.3em] text-[#1b3022] font-bold uppercase">SUMMERSET</h1>
-              <p className="text-[9px] text-[#d4af37] font-bold uppercase tracking-[0.4em]">South Surrey Residential Estates</p>
+              <p className="text-[9px] text-[#d4af37] font-bold uppercase tracking-[0.4em]">South Surrey Residential Development</p>
             </div>
           </div>
           <nav className="hidden md:flex gap-8">
@@ -399,8 +399,8 @@ const Summerset2 = () => {
                 <div className="mx-auto w-16 h-16 rounded-full bg-white flex items-center justify-center text-[#d4af37] shadow-sm border border-[#1b3022]/5 group-hover:bg-[#1b3022] group-hover:text-white transition-all duration-500">
                     <Home size={24} />
                 </div>
-                <h5 className="text-[11px] font-bold uppercase tracking-[0.3em]">Artisan Design</h5>
-                <p className="text-xs text-slate-500 font-light leading-relaxed">Wolf &amp; Sub-Zero culinary suites paired with bespoke architectural finishes.</p>
+                <h5 className="text-[11px] font-bold uppercase tracking-[0.3em]">Harmonious Kitchens</h5>
+                <p className="text-xs text-slate-500 font-light leading-relaxed">Gourmet kitchens designed for functional everyday use</p>
               </div>
               <div className="text-center space-y-4 group">
                 <div className="mx-auto w-16 h-16 rounded-full bg-white flex items-center justify-center text-[#d4af37] shadow-sm border border-[#1b3022]/5 group-hover:bg-[#1b3022] group-hover:text-white transition-all duration-500">
@@ -448,7 +448,7 @@ const Summerset2 = () => {
                 </div>
             </div>
             <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 opacity-30 text-[9px] tracking-widest uppercase font-bold relative z-10">
-                <p>Curated by [Developer Name]</p>
+                <p>Curated by Peace Park Developments</p>
                 <p>195-172nd Street, South Surrey, British Columbia</p>
             </div>
         </div>

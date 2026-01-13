@@ -49,6 +49,8 @@ const Summerset3 = () => {
             <Compass size={18} />
           </div>
           <span className="text-xl font-serif tracking-widest uppercase font-bold text-[#1b3022]">Summerset</span>
+          <br />
+           <p className="text-[9px] text-[#d4af37] font-bold uppercase tracking-[0.4em]">South Surrey Residential Development</p>
         </div>
         <button 
           onClick={() => document.getElementById('register').scrollIntoView({ behavior: 'smooth' })}
