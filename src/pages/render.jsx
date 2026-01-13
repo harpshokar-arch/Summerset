@@ -4,54 +4,54 @@ import { ChevronLeft, ChevronRight, Maximize2, X, Info } from 'lucide-react';
 // Data structure for the uploaded images
 const slides = [
   {
-    src: "68c17a45e25fe340d880951f_33e49e234290139.68c0841d54e92-p-2000.jpg",
-    title: "Exterior Architecture",
+    src: "IMG_4461.JPG",
+    title: "Vue6 Exterior Architecture",
     description: "Photorealistic exterior visualization showcasing lighting and material textures."
   },
   {
-    src: "6845d604dedb8dc8d6f7a64b_AW24 - Kitchen and dining Img 2.png",
-    title: "Modern Dining & Kitchen",
-    description: "Interior design rendering highlighting open-plan layout and natural light."
+    src: "Vue6%20Kitchen.jpg",
+    title: "Vue6 Kitchen",
+    description: "Kitchen rendering highlighting open-plan layout and natural light."
   },
   {
-    src: "6845cb88caf40d8ffda4773c_Bedroom Img 1-p-2000.png",
-    title: "Master Bedroom Suite",
+    src: "Vue6%20Masert.jpg",
+    title: "Vue6 Master Bedroom Suite",
     description: "Atmospheric interior rendering with detailed soft furnishings."
   },
   {
-    src: "6845d706153a9f3137974703_Hillside Residence Img 1.png",
-    title: "Hillside Residence",
-    description: "Landscape and architectural integration in a hillside setting."
+    src: "IMG_4462.JPG",
+    title: "Vue6 Hero Shot",
+    description: "Landscape and architectural integration for the Langley Project."
   },
   {
-    src: "694153f3daa22d6816b742a8_112I01_BR_Rooftop_portfolio_View01_upscale-p-2000.png",
+    src: "Roof%20Materials%20Day.png",
     title: "Rooftop Terrace",
     description: "Urban rooftop leisure space visualization."
   },
   {
-    src: "69430ae6bebe62286ca8e1e8_65 W 13th St Roof Materials Day (3).png",
-    title: "Materiality Study",
-    description: "Detailed study of exterior finishes and daylight interaction."
+    src: "Residence%201.png",
+    title: "Residential Rendering",
+    description: "Additional Work done to highlight material details and shadowing."
   },
   {
-    src: "2 (1).jpg",
-    title: "Design Perspective I",
-    description: "Conceptual architectural visualization."
+    src: "Sample%20Bedroom.png",
+    title: "Masert Bedroom Rendering",
+    description: "Bedroom architectural visualization."
   },
   {
-    src: "4 (1).jpg",
-    title: "Design Perspective II",
-    description: "Advanced rendering technique showcase."
+    src: "Sample%20Kitchen%20and%20dining%20Img%202.png",
+    title: "Dining Room Rendering",
+    description: "Photo realistic Rendering of Dining Room"
   },
   {
-    src: "IMG_4461.jpg",
-    title: "Process Sketch I",
-    description: "Initial design concept and ideation."
+    src: "Sample%20Kitchen.jpg",
+    title: "Living Room Rendering",
+    description: "Living Space Details."
   },
   {
-    src: "IMG_4462.jpg",
-    title: "Process Sketch II",
-    description: "Structural detail and form exploration."
+    src: "Bedroom%20Image.png",
+    title: "Furniture Details",
+    description: "Additional Material Highlights for Interior Space."
   }
 ];
 
@@ -121,7 +121,7 @@ const Amantirender = () => {
       <div className="absolute top-0 left-0 w-full z-20 p-6 md:p-10 flex justify-between items-start pointer-events-none">
         <div>
           <h1 className="text-2xl md:text-3xl font-light tracking-tighter uppercase pointer-events-auto cursor-pointer mix-blend-difference">
-            Render<span className="font-bold">Set</span>
+            Amanti<span className="font-bold"> Rendering Service</span>
           </h1>
           <p className="text-xs md:text-sm tracking-widest text-neutral-400 mt-1 uppercase opacity-80 mix-blend-difference">
             Visualization Portfolio

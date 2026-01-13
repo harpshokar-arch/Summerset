@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Mail, MapPin, Home, ArrowRight, CheckCircle2, Waves, Trees, Compass } from 'lucide-react';
 
 const Summerset3 = () => {
@@ -281,6 +282,29 @@ const Summerset3 = () => {
             © 2024 THE SUMMERSET RESIDENCES. ALL RIGHTS RESERVED.
           </div>
         </div>
+        {/* Navigation to Next Page */}
+        <section className="max-w-7xl mx-auto px-8 pb-32">
+          <div className="border-t border-slate-200 pt-20 flex flex-col items-center">
+            <p className="text-[10px] font-bold tracking-[0.5em] text-slate-400 uppercase mb-8">
+              Continue to Rendering
+            </p>
+    
+            <Link 
+              to="/page4" 
+              className="group relative px-12 py-6 border border-[#1A1C1E] overflow-hidden transition-all hover:border-[#D4AF37]"
+            >
+              <span className="relative z-10 text-[12px] font-bold uppercase tracking-[0.4em] group-hover:text-[#D4AF37] transition-colors">
+                Amanti Rendering Service
+              </span>
+              {/* Subtle hover effect */}
+              <div className="absolute inset-0 bg-[#F4F1ED] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out" />
+            </Link>
+    
+            <p className="mt-6 text-sm italic text-slate-400 font-light">
+              Rendering Samples
+            </p>
+          </div>
+        </section>
       </footer>
 
       {/* Global CSS for custom animations */}
